@@ -17,6 +17,7 @@ public class helloworld extends Application {
     public void start(Stage primaryStage) throws Exception{
         System.out.println("hello world");
 
+        System.out.println('h');
         double gastropod = 5;
         System.out.println("hi 2.0");
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
