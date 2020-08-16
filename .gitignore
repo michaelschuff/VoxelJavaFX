@@ -1,2 +1,4 @@
-Testing_Experimentation/*
+*
 !Testing_Experimentation/src/
+!.gitignore
+!README.md
