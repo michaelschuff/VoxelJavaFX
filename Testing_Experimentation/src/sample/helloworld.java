@@ -11,6 +11,8 @@ public class helloworld extends Application {
 
     public double EEEEEE = 5;
     public double Pongo = 420;
+    public double Pongo2 = 4202;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         System.out.println("hello world");
