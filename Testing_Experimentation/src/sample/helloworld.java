@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 public class helloworld extends Application {
     
     public double EEEEEE = 5;
+    public double Pongo = 420;
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
