@@ -7,12 +7,16 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class helloworld extends Application {
-    
+
+
+    public double EEEEEE = 5;
     @Override
     public void start(Stage primaryStage) throws Exception{
         System.out.println("hello world");
+
+        System.out.println("hi 2.0");
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Hello World Pnis");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
