@@ -15,7 +15,7 @@ public class helloworld extends Application {
     public void start(Stage primaryStage) throws Exception{
         System.out.println("hello world");
 
-        double g = 5;
+        double gastropod = 5;
         System.out.println("hi 2.0");
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Hello World Pnis");
