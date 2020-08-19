@@ -9,18 +9,8 @@ import javafx.stage.Stage;
 public class helloworld extends Application {
 
 
-    public double EEEEEE = 5;
-    public double Pongo = 420;
-    public double Pongo2 = 4202;
-    public double nmlopqrstuvamirite = 369121518;
-
     @Override
     public void start(Stage primaryStage) throws Exception{
-        System.out.println("hello 123world");
-        System.out.println("test change");
-        double gastropod = 5;
-        double t = 6;
-        System.out.println("hi 2.0");
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Hello World Pnis");
         primaryStage.setScene(new Scene(root, 300, 275));
